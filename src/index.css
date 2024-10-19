@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer base {
+
+  :root {
+    --yellow-primary: 211, 242, 71, 100%;
+    --black-primary: 1, 1, 1, 100%;
+    --color-gray: 244, 244, 244, 100%;
+    --color-golden: 222, 236, 60, 100%;
+    --color-blue: 0, 209, 255, 100%;
+    --color-goled: 254, 220, 152, 25%;
+    --color-brown: 250, 178, 70, 100%;
+    --color-red: 241, 51, 39, 100%;
+
+
+
+ 
+    font-family: "Source Code Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+
+  }
+}
+
+.bg-small {
+  background-size: 60%;
+  background-Position: bottom center;
+}
+
+@media (min-width: 768px) {
+  .bg-large {
+    background-size: contain;
+    background-Position: right bottom ;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .hidden-lg {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+
