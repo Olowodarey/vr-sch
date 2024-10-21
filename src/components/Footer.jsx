@@ -1,4 +1,4 @@
-import L1 from "../assets/L1.png";
+import l1 from "../assets/l1.png";
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-wrap justify-between border-b-2 pb-10 space-y-10 lg:space-y-0">
         <div className="w-full lg:w-auto">
           <h1>
-            <img src={L1} alt="Logo" className="h-12 lg:h-auto" />
+            <img src={l1} alt="Logo" className="h-12 lg:h-auto" />
           </h1>
           <p className="mt-4 text-sm">
             Saas Lorem ipsum dolor sit amet, consectetur adipiscing elit.
