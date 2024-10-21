@@ -20,8 +20,8 @@ const Subscribe = () => {
       </div>
       {/* logos */}
       <div className="border-t border-b grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-0 justify-items-center px-4 lg:px-10 mt-16 lg:mt-32 h-[150px] lg:h-[200px] items-center">
-        <img src={L1} alt="" className="h-5 lg:h-auto" />
-        <img src={L2} alt="" className="h-5 lg:h-auto" />
+        <img src={L1} alt="l1" className="h-5 lg:h-auto" />
+        <img src={L2} alt="l2" className="h-5 lg:h-auto" />
         <img src={L3} alt="" className="h-5 lg:h-auto" />
         <img src={L4} alt="" className="h-5 lg:h-auto" />
       </div>
