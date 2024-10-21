@@ -54,7 +54,7 @@ const Tech = () => {
               <h1 className="text-2xl lg:text-3xl font-bold">Headsets</h1>
             </div>
 
-            <p className="mt-4 lg:mt-6 text-sm">
+            <p className="mt-4 lg:mt-6 text-sm flex text-justify">
               ClassVR headsets provide a safe and secure way for students to
               explore VR & AR in the classroom with the teacher keeping full
               control over each device. From a comfortable VR experience using
@@ -104,7 +104,7 @@ const Tech = () => {
               </h1>
             </div>
 
-            <p className="mt-4 lg:mt-6 text-sm">
+            <p className="mt-4 lg:mt-6 text-sm flex text-justify ">
               All ClassVR headsets come in a custom design case with a foam
               interior and strong ABS shell to keep your headsets safe.
               Available in cases of 4, 8 or 30, our cases are compact and light
@@ -168,7 +168,7 @@ const Tech = () => {
               
             </div>
 
-            <p className="mt-4 lg:mt-6 text-sm">
+            <p className="mt-4 lg:mt-6 text-sm flex text-justify ">
               All ClassVR headsets come in a custom design case with a foam
               interior and strong ABS shell to keep your headsets safe.
               Available in cases of 4, 8 or 30, our cases are compact and light

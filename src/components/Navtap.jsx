@@ -15,7 +15,7 @@ const Navtap = () => {
         <div className="flex  sm:flex-row  space-x-5 sm:space-x-10 text-black font-semibold order-2 sm:order-2">
           <NavLink to="./"  className="text-center sm:text-left">Home</NavLink>
           <NavLink to="./tech"  className="text-center sm:text-left">Technology</NavLink>
-          <NavLink className="text-center sm:text-left">Cources</NavLink>
+          <NavLink to="./edu"  className="text-center sm:text-left">Education</NavLink>
         
           <NavLink className="text-center sm:text-left">Blog</NavLink>
          

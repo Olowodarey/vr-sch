@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="flex flex-wrap justify-between border-b-2 pb-10 space-y-10 lg:space-y-0">
         <div className="flex flex-col w-full lg:w-[40%]">
           <h1 >
-            <img src={l1} alt="Logo" className="h-12 lg:h-auto" />
+            <img src={l1} alt="Logo" className="h-12 lg:h-auto " />
           </h1>
-          <p className="mt-4 text-sm ">
+          <p className="mt-4 text-sm flex text-justify ">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
             penatibus et magnis dis parturient montes, nascetur ridiculus mus.

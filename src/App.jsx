@@ -8,6 +8,7 @@ import MainLayout from "./layout/MainLayout";
 import Homepage from "./pages/Homepage";
 
 import Techpage from "./pages/Techpage";
+import Education from "./pages/Education";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -15,6 +16,7 @@ const App = () => {
       <Route path="/" element={<MainLayout />}>
         <Route path="/" element={<Homepage />} />
         <Route path="/tech" element={<Techpage />} />
+        <Route path="/edu" element={<Education />} />
       </Route>
     )
   );
