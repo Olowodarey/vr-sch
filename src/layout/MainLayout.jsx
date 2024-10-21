@@ -5,7 +5,7 @@ import Herosection from "../components/Herosection"
 const MainLayout = () => {
   return (
     <div>
-      <main>
+      <main className="px-[4px]">
 
         <Outlet />
       

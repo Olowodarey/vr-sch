@@ -34,14 +34,20 @@ const Subscribe = () => {
             <h1 className="font-bold text-xl lg:text-4xl">Offer Updates</h1>
           </div>
 
-          <div className="w-[500px] lg:w-auto flex items-center justify-center">
-            <div className="flex items-center bg-gray p-4 lg:p-6 rounded-lg shadow-md w-[500px] lg:w-auto  ">
-              <div className="flex flex-row items-center  lg:space-y-0 lg:space-x-5">
+          <div className="w-[500px] lg:w-auto flex  items-center justify-center">
+            <div className="flex items-center bg-gray p-4 lg:p-6 rounded-lg shadow-md w-[250px] lg:w-auto  ">
+              <div className="flex flex-col lg:flex-row   items-center  lg:space-y-0 lg:space-x-5">
+
+                <div className="flex px-2 items-center">
+
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent w-[300px] lg:w-64 h-8 lg:h-auto"
+                  className="  border border-gray-300 p-2 px-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent w-[200px] lg:w-64 h-8 lg:h-auto"
                 />
+
+                </div>
+             
                 <button className="flex items-center bg-blue text-white px-2 lg:px-4 py-2 border rounded-md hover:bg-blue-600 focus:outline-none w-[100px] lg:w-auto h-10">
                   Sign Up
                 </button>

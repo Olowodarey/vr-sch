@@ -39,25 +39,25 @@ const Future = () => {
 
           {/* Features */}
           <div className="mt-10 lg:mt-20">
-            <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-20">
-              <h3 className="flex items-center space-x-3">
+            <div className="grid grid-cols-2 lg:grid-cols-2 gap-2 lg:gap-20">
+              <h3 className="flex items-center space-x-1">
                 <img src={Checkmark} alt="" className="h-4" />
-                <span className="text-xs lg:text-base">Critical Solutions</span>
+                <span className="text-xs lg:text-base">Critical Solution</span>
               </h3>
-              <h3 className="flex items-center space-x-3">
+              <h3 className="flex items-center space-x-1">
                 <img src={Checkmark} alt="" className="h-4" />
                 <span className="text-xs lg:text-base">Innovative Learning</span>
               </h3>
             </div>
 
-            <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-20 pt-10">
-              <h3 className="flex items-center space-x-3">
+            <div className="grid grid-cols-2 lg:grid-cols-2 gap-2 lg:gap-20 pt-10">
+              <h3 className="flex items-center space-x-1">
                 <img src={Checkmark} alt="" className="h-4" />
-                <span className="text-xs lg:text-base">Future-Oriented</span>
+                <span className="text-xs lg:text-base">Future Oriented</span>
               </h3>
-              <h3 className="flex items-center space-x-3">
+              <h3 className="flex items-center space-x-1">
                 <img src={Checkmark} alt="" className="h-4" />
-                <span className="text-xs lg:text-base">Creative Thinking</span>
+                <span className="text-xs lg:text-base">Creative  Thinking</span>
               </h3>
             </div>
           </div>
