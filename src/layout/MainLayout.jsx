@@ -1,13 +1,14 @@
 import { Outlet } from "react-router-dom"
-import Navbar from "../components/Navtap"
-import Herosection from "../components/Herosection"
+import Navtap from "../components/Navtap"
+import Footer from "../components/Footer"
 
 const MainLayout = () => {
   return (
     <div>
-      <main className="px-[4px]">
-
+      <main className="overflow-x-hidden">
+        <Navtap />
         <Outlet />
+        <Footer />
       
 
       </main>

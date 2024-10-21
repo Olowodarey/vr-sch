@@ -1,55 +1,48 @@
-import React from "react";
-import L1 from "../assets/L1.png";
-import L2 from "../assets/L2.png";
-import L3 from "../assets/L3.png";
-import L4 from "../assets/L4.png";
+<div className="flex flex-col items-center justify-center space-y-5 pt-20">
+{/* Dotted lines and arrow */}
+<div className="flex justify-between space-x-10 items-center w-full max-w-4xl mx-auto">
+  <div className="w-1/3 lg:w-[400px] border-t-4 border-brown border-dotted"></div>
+  <IoIosArrowDown className="h-10 w-10 text-blue" />
+  <div className="w-1/3 lg:w-[400px] border-t-4 border-brown border-dotted"></div>
+</div>
 
-const Subscribe = () => {
-  return (
-    <div className="pb-20 px-10 lg:px-10 pt-10 ">
-      <div className="flex justify-center ">
-        {/* header */}
-        <h1 className="font-black text-lg lg:text-xl text-center">
-          Over{" "}
-          <span className="font-bold underline underline-offset-2">
-            17,000+ Users
-          </span>{" "}
-          all over the world
-        </h1>
-      </div>
+{/* Image and text */}
+<div className="flex flex-col lg:flex-row items-center lg:items-start justify-center space-y-5 lg:space-y-0 lg:space-x-10 w-full max-w-4xl mx-auto">
+  <div className="flex items-center justify-center px-20 ">
+    <img src={F3} alt="ClassVR" className=" w-full max-w-[500px]" />
+    
+  </div>
 
-      {/* logos */}
-      <div className="border-t border-b grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-0 justify-items-center px-4 lg:px-10 mt-16 lg:mt-32 h-auto lg:h-[200px] items-center">
-        <img src={L1} alt="Logo 1" className="h-12 lg:h-auto" />
-        <img src={L2} alt="Logo 2" className="h-12 lg:h-auto" />
-        <img src={L3} alt="Logo 3" className="h-12 lg:h-auto" />
-        <img src={L4} alt="Logo 4" className="h-12 lg:h-auto" />
-      </div>
+  <div className="lg:w-2/3 px-2">
+    <h1 className="text-3xl font-bold">
+      The Hardware: ClassVR Headsets
+    </h1>
+    <p className="mt-4 text-lg">
+      ClassVR headsets provide a safe and secure way for students to
+      explore VR & AR in the classroom with the teacher keeping full
+      control over each device. From a comfortable VR experience using
+      the adjustable head straps to the intuitive and simple-to-use
+      interface and controls, ClassVR headsets have been designed
+      specifically for students of all ages.
+    </p>
 
-      {/* subscribe */}
-      <div className="bg-gold mt-10 lg:mt-20 h-auto lg:h-[300px] w-full flex flex-col lg:flex-row items-center justify-center py-10 px-4">
-        <div className="mb-6 lg:mb-0 lg:mr-10 text-center lg:text-left">
-          <h1 className="font-bold text-3xl lg:text-4xl">Subscribe For</h1>
-          <h1 className="font-bold text-3xl lg:text-4xl">Offer Updates</h1>
-        </div>
-
-        <div className="w-full lg:w-auto flex items-center justify-center bg-gray p-4 lg:p-0">
-          <div className="bg-white p-4 lg:p-6 rounded-lg shadow-md">
-            <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-5">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent w-full lg:w-64"
-              />
-              <button className="bg-blue text-white px-4 py-2 border rounded-md hover:bg-blue-600 focus:outline-none w-full lg:w-auto">
-                Sign Up
-              </button>
-            </div>
-          </div>
-        </div>
+    {/* Button for larger screens */}
+    <div className="hidden lg:flex flex-col pt-10">
+      <div className="bg-blue border border-black h-9 w-[220px]">
+        <button className="h-9 bg-gray border font-semibold w-[220px] relative -top-1 -right-1 text-black">
+          Get Started
+        </button>
       </div>
     </div>
-  );
-};
 
-export default Subscribe;
+    {/* Button for smaller screens */}
+    <div className="flex lg:hidden flex-col items-center pt-10">
+      <div className="bg-blue border border-black h-9 w-[220px]">
+        <button className="h-9 bg-gray border font-semibold w-[220px] relative -top-1 -right-1 text-black">
+          Get Started
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

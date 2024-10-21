@@ -14,7 +14,7 @@ const Herosection = () => {
       >
         <div className="h-[80vh] lg:h-[90vh]  px-10 lg:px-10 flex flex-col">
           {/* Text and Button Section */}
-          <div className="flex flex-col items-center text-justify font-bold text-3xl lg:text-6xl ">
+          <div className="flex flex-col items-center text-justify font-bold text-3xl lg:text-5xl ">
             {/* Virtual Reality */}
             <div className="flex  items-center space-x-3   lg:space-x-5 ">
               <h1 className=" lg:mb-0">Virtual</h1>
